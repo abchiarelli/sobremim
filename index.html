@@ -1,422 +1,458 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    </style>
-    <link rel="stylesheet" href="style.css">
-    <title>Artur Chiarelli | Jan/2023</title>
+    <title>Artur Chiarelli | Fev/2023</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
-    <div class="particular-main" id="particular" style="width: 400px;">
-        <div class="particular-backgroud"></div>
-        <div class="particular-elements">
-            <div class="picture-profile">
-                <img class="profile" src="img/profile.png" alt="">
+    <header>
+        <section id="photo">
+            <div id="picture-frame">
+                <div id="picture-background">
+                    <img id="picture-profile" src="./assets/ac_picture-profile_side-smiling_400.png"
+                        alt="Foto do currículo">
+                </div>
             </div>
-            
-            <div class="particular" id="about">
+        </section>
+
+        <section id="name">
+            <div>
+                <h1>
+                    Artur <strong>Chiarelli</strong>
+                </h1>
+                <h2>
+                    Desenvolvedor de Software
+                </h2>
+                <div id="element"></div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section id="particular">
+            <div class="item" id="about">
                 <h2 class="title">
                     sobre_
                 </h2>
                 <p>
-                    <b class="semi-bold">Criativo e curioso</b>, buscando desenvolver novas habilidades,
-                    agora na área da TI.<br>
-                    Pretendo fazer parte de um time de desenvolvimento, 
-                    onde eu consiga adquirir <b class="semi-bold">novas experiências</b>, 
-                    me capacitando e, consequentemente, contribuindo para o <b class="semi-bold">crescimento de ambos</b>,
-                    da empresa e o meu.
+                    <strong>Sou criativo e curioso</strong>, aprofundo meus conhecimentos sempre que preciso de alguma
+                    resposta ou nova
+                    habilidade. Adoro tecnologia, em sua essência, seja com softwares, jogos, hardware e tudo o que
+                    envolve essa fantástica área. <strong>Autoditada e muito comprometido</strong> com meus desafios,
+                    atualmente estudo e
+                    busco desenvolver novas habilidades, agora na área da TI, com foco em
+                    <strong>desenvolvimento</strong>.
+                    Pretendo fazer parte de um time de desenvolvimento, onde eu consiga adquirir <strong>novas
+                        experiências</strong>, me
+                    capacitando e, consequentemente, contribuindo para o <strong>crescimento de ambos</strong>, da
+                    empresa e o meu.
+
                 </p>
             </div>
-            
-            <div class="particular" id="portfolio">
+
+            <div class="item" id="contact">
                 <h2 class="title">
-                    portfólio_
+                    contato_
                 </h2>
-    
-                <div class="contacts-container">
-                    <div class="contacts-tag" style="height: 70px;"></div>
-    
-                    <div class="contacts-group">
-                        <a href="https://codepen.io/abchiarelli/" target="_blank">
-                            <div class="contact">
-                                <img class="contact-icons" src="img/codepen.png" alt="">
-                                <p class="contact-description">
-                                    codepen.io/abchiarelli
-                                </p>
-                            </div>
+
+                <div id="contact-items">
+                    <div class="contacts-element"></div>
+                    <div id="contacts">
+                        <a class="contact" href="mailto:arturchiarelli@gmail.com" type="external" target="_blank">
+                            <img src="./assets/send.png" alt="e-mail send icon">
+                            <p>
+                                arturchiarelli@gmail.com
+                            </p>
                         </a>
-    
-                        <a href="https://www.behance.net/abchiarelli/" target="_blank">
-                            <div class="contact">
-                                <img class="contact-icons" src="img/behance.png" alt="">
-                                <p class="contact-description">
-                                    behance.net/abchiarelli
-                                </p>
-                            </div>
+
+                        <a class="contact" href="https://linkedin.com/in/arturchiarelli" type="external"
+                            target="_blank">
+                            <img src="./assets/logotipo-do-linkedin.png" alt="LinkedIn logo icon"
+                                style="max-height: 14px;">
+                            <p>
+                                linkedin.com/in/arturchiarelli
+                            </p>
                         </a>
                     </div>
                 </div>
             </div>
-            
-            
-            <div class="particular" id="education" style="width: 215px;">
+
+            <div class="item" id="interests">
                 <h2 class="title">
-                    escolaridade_
+                    interesses_
                 </h2>
-                
-                <p style="text-align: left; line-height: 150%;">
-                    <b class="semi-bold" style="font-size: 11pt;">Análise e Desenvolvimento de Sistemas</b><br>
-                    Universidade do Vale do Taquari<br>
-                    UNIVATES<br>
-                    2022 - Presente
-                </p>
+
+                <div id="interests-group">
+                    <div class="interest">
+                        <div class="icon"></div>
+                        <p class="thing-name">
+                            Jogos
+                        </p>
+                    </div>
+
+                    <div class="interest">
+                        <div class="icon"></div>
+                        <p class="thing-name">
+                            Família
+                        </p>
+                    </div>
+
+                    <div class="interest">
+                        <div class="icon"></div>
+                        <p class="thing-name">
+                            Livros
+                        </p>
+                    </div>
+
+                    <div class="interest">
+                        <div class="icon"></div>
+                        <p class="thing-name">
+                            Tecnologia
+                        </p>
+                    </div>
+
+                    <div class="interest">
+                        <div class="icon"></div>
+                        <p class="thing-name">
+                            Amigos
+                        </p>
+                    </div>
+                </div>
             </div>
-            
-            <div class="particular" id="contact">
+
+            <div class="item" id="schooling">
                 <h2 class="title">
-                    contato_
+                    Escolaridade_
                 </h2>
-                
-                <div class="location-container">
-                    <div class="contacts-tag" style="height: 45px;"></div>
-                    
-                    <div class="location-group">
-                        <div class="location">
-                            <img class="location-icon" src="img/location.png" alt="">
-                            
-                            <p class="contact-description">
-                                Lajeado, Rio Grande do Sul<br>
-                                Brasil
+                <div id="course">
+                    <p class="course-name">
+                        Análise e Desenvolvimento de Sistemas
+                    </p>
+                    <p>
+                        Universidade do Vale do Taquari<br>
+                        UNIVATES<br>
+                        2022 - Presente
+                    </p>
+                </div>
+            </div>
+
+            <div class="item" id="language">
+                <h2 class="title">
+                    idiomas_
+                </h2>
+
+                <div class="skills-group">
+                    <div class="skill" id="pt-br">
+                        <p class="thing-name">
+                            Português
+                        </p>
+                        <abbr title="Domínio Pleno">
+                            <div class="nivel">
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                            </div>
+                        </abbr>
+                    </div>
+
+                    <div class="skill" id="en">
+                        <p class="thing-name">
+                            Inglês
+                        </p>
+                        <abbr title="Básico">
+                            <div class="nivel">
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                            </div>
+                        </abbr>
+                    </div>
+
+                    <div class="skill" id="es">
+                        <p class="thing-name">
+                            Espanhol
+                        </p>
+                        <abbr title="Intermediário">
+                            <div class="nivel">
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                            </div>
+                        </abbr>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" id="skills">
+                <h2 class="title">
+                    habilidades_
+                </h2>
+
+                <div class="skills-group">
+                    <div class="skill" id="photoshop">
+                        <p class="thing-name">
+                            Photoshop
+                        </p>
+                        <abbr title="Usuário Independente">
+                            <div class="nivel">
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                            </div>
+                        </abbr>
+                    </div>
+                    <div class="skill" id="illustrator">
+                        <p class="thing-name">
+                            Illustrator
+                        </p>
+                        <abbr title="Intermediário">
+                            <div class="nivel">
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                            </div>
+                        </abbr>
+                    </div>
+                    <div class="skill" id="premiere">
+                        <p class="thing-name">
+                            Premiere Pro
+                        </p>
+                        <abbr title="Domínio Pleno">
+                            <div class="nivel">
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                            </div>
+                        </abbr>
+                    </div>
+                    <div class="skill" id="after">
+                        <p class="thing-name">
+                            After Effects
+                        </p>
+                        <abbr title="Proficiente">
+                            <div class="nivel">
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                            </div>
+                        </abbr>
+                    </div>
+                    <div class="skill" id="java">
+                        <p class="thing-name">
+                            Java
+                        </p>
+                        <abbr title="Básico">
+                            <div class="nivel">
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                            </div>
+                        </abbr>
+                    </div>
+                    <div class="skill" id="postgresql">
+                        <p class="thing-name">
+                            PostgreSQL
+                        </p>
+                        <abbr title="Iniciante">
+                            <div class="nivel">
+                                <div class="icon"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                            </div>
+                        </abbr>
+                    </div>
+                    <div class="skill" id="html">
+                        <p class="thing-name">
+                            HTML
+                        </p>
+                        <abbr title="Básico">
+                            <div class="nivel">
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                            </div>
+                        </abbr>
+                    </div>
+                    <div class="skill" id="css">
+                        <p class="thing-name">
+                            CSS
+                        </p>
+                        <abbr title="Básico">
+                            <div class="nivel">
+                                <div class="icon"></div>
+                                <div class="icon"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                                <div class="icon" style="background-color: var(--color-emphasis);"></div>
+                            </div>
+                        </abbr>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" id="portolio">
+                <h2 class="title">
+                    portifólio_
+                </h2>
+
+                <div id="contact-items">
+                    <div class="contacts-element"></div>
+                    <div id="contacts">
+                        <a class="contact" href="https://codepen.io/abchiarelli" type="external" target="_blank">
+                            <img src="./assets/codepen.png" alt="e-mail send icon" style="max-width: 15px;">
+                            <p>
+                                codepen.io/abchiarelli
+                            </p>
+                        </a>
+
+                        <a class="contact" href="https://www.behance.net/abchiarelli" type="external"
+                            target="_blank">
+                            <img src="./assets/behance.png" alt="LinkedIn logo icon">
+                            <p>
+                                behance.net/abchiarelli
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="professional">
+            <div class="item" id="job-experience">
+                <h2 class="title">
+                    experiências de trabalho_
+                </h2>
+                <div id="jobs">
+                    <div class="job">
+                        <p class="job-local">
+                            2020 - Presente<br>
+                            <strong>Editor de Vídeos</strong><br>
+                            Autônomo
+                        </p>
+
+                        <div class="job-description">
+                            <div class="job-description-element"></div>
+                            <p>
+                                Com a pandemia afetando o setor de eventos, passei a trabalhar de forma autônoma para
+                                empresas, agências de publicidade e de criação de conteúdo, criando e editando vídeos
+                                institucionais, para marketing em geral ou de disponibilização de conteúdos para redes
+                                sociais.<br>
+                                Uso minha experiência adquirida com os anos de trabalho na área, e minha criatividade
+                                para agregar valor às entregas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="job">
+                        <p class="job-local">
+                            2014 - 2020<br>
+                            <strong>Editor de Vídeos</strong><br>
+                            Maicon Schnorr Vídeos - Arroio do Meio, RS
+                        </p>
+
+                        <div class="job-description">
+                            <div class="job-description-element"></div>
+                            <p>
+                                Empresa focada na criação de vídeos de eventos sociais, institucionais de empresas e
+                                vídeo clipes. Meu papel ia desde a captação de vídeo até a edição de material para
+                                multiplataformas. Criação de animações para inserção de vídeos e todos os elementos
+                                necessário para entrega do material aos clientes.<br>
+                                Uso de diversas ferramentas gráficas como Premiere Pro, After Effects, Illustrator,
+                                Photoshop, bem como estudo e pesquisa para que cada material tivesse seu diferencial de
+                                acordo com o perfil do cliente e com as técnicas mais atualizadas de criação de material
+                                em vídeo.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="job">
+                        <p class="job-local">
+                            2013 - 2014<br>
+                            <strong>Técnico de Smartphones</strong><br>
+                            Autônomo
+                        </p>
+
+                        <div class="job-description">
+                            <div class="job-description-element"></div>
+                            <p>
+                                Com o ganho de espaço que os Smartphones ganhavam na época, vi, junto de um amigo, a
+                                oportunidade de iniciar-mos um negócio.<br>
+                                Meu papel na empresa era o atendimento ao púlico visando a triagem dos problemas que
+                                apareciam. Também auxiliava na configuração de celulares smartphones, istalação de
+                                aplicativos,
+                                formatação de aparelhos e, quando necessário, fazia alguns concertos em celulares.<br>
+                                Também prestava consultoria para clientes que buscavam adquirir seu primeiro Smartphone,
+                                buscando
+                                um aparelho que atendesse suas necessidades, focando no custo-benefício.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="job">
+                        <p class="job-local">
+                            2010 - 2013<br>
+                            <strong>Auxiliar Executivo de Vendas - Empresas</strong><br>
+                            Lajetel Comunicações - Lajeado, RS
+                        </p>
+
+                        <div class="job-description">
+                            <div class="job-description-element"></div>
+                            <p>
+                                Atendimento a clientes empresariais com foco no acompanhamento de suas demandas,
+                                propondo soluções aos seus negócios. Como exemplos posso citar as análises e correções
+                                de problemas na fatura e otimização do consumo com base no
+                                perfil da empresa.<br>
+                                Configuração de Smartphones e cadastro de pedidos.
                             </p>
                         </div>
                     </div>
                 </div>
-    
-                <div class="contacts-container">
-                    <div class="contacts-tag" style="height: 70px;"></div>
-
-                    
-                    <div class="contacts-group">
-    
-                        <a href="mailto:arturchiarelli@gmail.com" target="_blank">
-                            <div class="contact">
-                                <img class="contact-icons" src="img/send.png" alt="">
-                                <p class="contact-description">
-                                    arturchiarelli@gmail.com
-                                </p>
-                            </div>
-                        </a>
-    
-                        <a href="https://www.linkedin.com/in/arturchiarelli/" target="_blank">
-                            <div class="contact">
-                                <img class="contact-icons" src="img/logotipo-do-linkedin.png" alt="">
-                                <p class="contact-description">
-                                    linkedin.com/in/arturchiarelli
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
             </div>
+        </section>
+    </main>
 
-        </div>
-    </div>
-
-    <div id="description" style="width: 380px; margin-left: 60px; margin-top: 60px;">
-        <div id="name" style="width: 200px;  margin-bottom: 50px;">
-            <h1 style="margin-bottom: 10px;">
-                Artur <b style="font-weight: 700;">Chiarelli</b>
-            </h1>
-            <h2>
-                Desenvolvedor de Software
-            </h2>
-        </div>
-
-        <hr style="margin-bottom: 40px;">
-
-        <div id="job-experiences" style="margin-bottom: 35px;">
-            <h2 class="title">
-                experiências de trabalho_
-            </h2>
-
-            <div class="job" id="second-job">
-                <p class="job-title">
-                    2014 - 2020<br>
-                    <b class="semi-bold">Editor de Vídeos</b><br>
-                    Maicon Schnorr Filmes - Arroio do Meio, RS
-                </p>
-
-                <div class="job-description">
-                    <div class="shape" style="height: 85px;">
-
-                    </div>
-
-                    <p class="description">
-                        Captação de vídeo em eventos sociais,
-                        video clipes e institucionais de empresas,
-                        com foco na edição de vídeos para multi plataformas.<br>
-                        Além da criação de animações para inserções em vídeos.
-
-                    </p>
-                </div>
-            </div>
-
-            <div class="job" id="first-job">
-                <p class="job-title">
-                    2010 - 2013<br>
-                    <b class="semi-bold">Auxiliar Executivo de Vendas - Empresas</b><br>
-                    Lajetel Comunicações - Lajeado, RS
-                </p>
-
-                <div class="job-description">
-                    <div class="shape" style="height: 105px;">
-
-                    </div>
-
-                    <p class="description">
-                        Atendimento a clientes, voltada à análise e correções de problemas na fatura,
-                        otimizando o consumo com base no perfil da empresa,
-                        trazendo melhorias de valores.<br>
-                        Configuração de Smartphones e cadastro de pedidos.
-
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div id="skills" style="margin-bottom: 35px;">
-            <h2 class="title">
-                habilidades_
-            </h2>
-
-            <div class="skill-group">
-                <div class="skill">
-                    <p class="skill-name">
-                        Photoshop
-                    </p>
-
-                    <div class="points">
-                        <div class="point" id="1" style="background-color: #ffd739;"></div>
-                        <div class="point" id="2" style="background-color: #ffd739;"></div>
-                        <div class="point" id="3" style="background-color: #ffd739;"></div>
-                        <div class="point" id="4" style="background-color: #ffd739;"></div>
-                        <div class="point" id="5"></div>
-                        <div class="point" id="6"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <p class="skill-name">
-                        Illustrator
-                    </p>
-
-                    <div class="points">
-                        <div class="point" id="1" style="background-color: #ffd739;"></div>
-                        <div class="point" id="2" style="background-color: #ffd739;"></div>
-                        <div class="point" id="3" style="background-color: #ffd739;"></div>
-                        <div class="point" id="4"></div>
-                        <div class="point" id="5"></div>
-                        <div class="point" id="6"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <p class="skill-name">
-                        Premiere
-                    </p>
-
-                    <div class="points">
-                        <div class="point" id="1" style="background-color: #ffd739;"></div>
-                        <div class="point" id="2" style="background-color: #ffd739;"></div>
-                        <div class="point" id="3" style="background-color: #ffd739;"></div>
-                        <div class="point" id="4" style="background-color: #ffd739;"></div>
-                        <div class="point" id="5" style="background-color: #ffd739;"></div>
-                        <div class="point" id="6" style="background-color: #ffd739;"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <p class="skill-name">
-                        After Effects
-                    </p>
-
-                    <div class="points">
-                        <div class="point" id="1" style="background-color: #ffd739;"></div>
-                        <div class="point" id="2" style="background-color: #ffd739;"></div>
-                        <div class="point" id="3" style="background-color: #ffd739;"></div>
-                        <div class="point" id="4" style="background-color: #ffd739;"></div>
-                        <div class="point" id="5" style="background-color: #ffd739;"></div>
-                        <div class="point" id="6"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <p class="skill-name">
-                        Java
-                    </p>
-
-                    <div class="points">
-                        <div class="point" id="1" style="background-color: #ffd739;"></div>
-                        <div class="point" id="2" style="background-color: #ffd739;"></div>
-                        <div class="point" id="3"></div>
-                        <div class="point" id="4"></div>
-                        <div class="point" id="5"></div>
-                        <div class="point" id="6"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <p class="skill-name">
-                        PostgreSQL
-                    </p>
-
-                    <div class="points">
-                        <div class="point" id="1" style="background-color: #ffd739;"></div>
-                        <div class="point" id="2"></div>
-                        <div class="point" id="3"></div>
-                        <div class="point" id="4"></div>
-                        <div class="point" id="5"></div>
-                        <div class="point" id="6"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <p class="skill-name">
-                        HTML
-                    </p>
-
-                    <div class="points">
-                        <div class="point" id="1" style="background-color: #ffd739;"></div>
-                        <div class="point" id="2" style="background-color: #ffd739;"></div>
-                        <div class="point" id="3"></div>
-                        <div class="point" id="4"></div>
-                        <div class="point" id="5"></div>
-                        <div class="point" id="6"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <p class="skill-name">
-                        CSS
-                    </p>
-
-                    <div class="points">
-                        <div class="point" id="1" style="background-color: #ffd739;"></div>
-                        <div class="point" id="2" style="background-color: #ffd739;"></div>
-                        <div class="point" id="3"></div>
-                        <div class="point" id="4"></div>
-                        <div class="point" id="5"></div>
-                        <div class="point" id="6"></div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div id="languages" style="margin-bottom: 35px;">
-            <h2 class="title">
-                linguas_
-            </h2>
-
-            <div class="skill-group">
-                <div class="skill">
-                    <p class="skill-name">
-                        Português
-                    </p>
-
-                    <div class="points">
-                        <div class="point" id="1" style="background-color: #ffd739;"></div>
-                        <div class="point" id="2" style="background-color: #ffd739;"></div>
-                        <div class="point" id="3" style="background-color: #ffd739;"></div>
-                        <div class="point" id="4" style="background-color: #ffd739;"></div>
-                        <div class="point" id="5" style="background-color: #ffd739;"></div>
-                        <div class="point" id="6" style="background-color: #ffd739;"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <p class="skill-name">
-                        Inglês
-                    </p>
-
-                    <div class="points">
-                        <div class="point" id="1" style="background-color: #ffd739;"></div>
-                        <div class="point" id="2" style="background-color: #ffd739;"></div>
-                        <div class="point" id="3"></div>
-                        <div class="point" id="4"></div>
-                        <div class="point" id="5"></div>
-                        <div class="point" id="6"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <p class="skill-name">
-                        Espanhol
-                    </p>
-
-                    <div class="points">
-                        <div class="point" id="1" style="background-color: #ffd739;"></div>
-                        <div class="point" id="2" style="background-color: #ffd739;"></div>
-                        <div class="point" id="3" style="background-color: #ffd739;"></div>
-                        <div class="point" id="4"></div>
-                        <div class="point" id="5"></div>
-                        <div class="point" id="6"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="interests">
-            <h2 class="title">
-                interesses_
-            </h2>
-
-            <div class="interests-group">
-                <div class="interest">
-                    <div class="interest-point"></div>
-                    <p class="interest-name">
-                        Jogos
-                    </p>
-                </div>
-
-                <div class="interest">
-                    <div class="interest-point"></div>
-                    <p class="interest-name">
-                        Família
-                    </p>
-                </div>
-
-                <div class="interest">
-                    <div class="interest-point"></div>
-                    <p class="interest-name">
-                        Livros
-                    </p>
-                </div>
-
-                <div class="interest">
-                    <div class="interest-point"></div>
-                    <p class="interest-name">
-                        Tecnologia
-                    </p>
-                </div>
-
-                <div class="interest">
-                    <div class="interest-point"></div>
-                    <p class="interest-name">
-                        Amigos
-                    </p>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
+    <footer>
+        <p>
+            Site criado por <a href="https://linkedin.com/in/arturchiarelli" type="external" target="_blank">Artur
+                Chiarelli</a>.
+        </p>
+    </footer>
 </body>
 
 </html>
