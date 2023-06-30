@@ -2,7 +2,7 @@
 
 :root {
     --color-detail: #f2b443;
-    --color-detail-empty: hsla(0, 2%, 25%, 0.4);
+    --color-detail-empty: #5f5b5b;
     --color-white-bg: #f2f2f2;
     --color-emphasis: #d9d9d9;
     --color-body-background: #403d3d;
