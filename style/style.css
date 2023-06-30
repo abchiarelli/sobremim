@@ -2,6 +2,7 @@
 
 :root {
     --color-detail: #f2b443;
+    --color-detail-empty: hsla(0, 2%, 25%, 0.4);
     --color-white-bg: #f2f2f2;
     --color-emphasis: #d9d9d9;
     --color-body-background: #403d3d;
@@ -275,7 +276,7 @@ div.interest {
 div#interests-group {
     display: flex;
 
-    column-gap: 50px;
+    column-gap: 25px;
     row-gap: 10px;
 
     max-width: 275px;
