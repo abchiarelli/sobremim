@@ -316,7 +316,7 @@ div.skills-group {
 footer {
     background-color: var(--color-detail);
 
-    position: sticky;
+    position: aboslute;
     bottom: 0vh;
 }
 
